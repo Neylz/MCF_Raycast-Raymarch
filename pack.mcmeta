@@ -1,0 +1,9 @@
+{
+    "pack": {
+        "name": "Raymarching Raycast",
+        "description": "Usage of raymarching to optimize raycasts",
+        "version": "1.0.0",
+        "contributors": ["Neylz"],
+        "pack_format": 16
+    }
+}
