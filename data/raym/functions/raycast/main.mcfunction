@@ -10,7 +10,7 @@ scoreboard players set #success raym 0
 tag @s add ns
 
 ## run
-execute at @s positioned ^ ^ ^ run function raym:raycast/iter
+execute at @s anchored eyes positioned ^ ^ ^ run function raym:raycast/iter
 
 ## cleanup
 tag @s remove ns

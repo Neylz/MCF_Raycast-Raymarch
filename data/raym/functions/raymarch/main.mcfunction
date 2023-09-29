@@ -10,7 +10,7 @@ scoreboard players set #success raym 0
 tag @s add ns
 
 ## run
-execute at @s positioned ^ ^ ^ summon marker run function raym:raymarch/setup
+execute at @s anchored eyes positioned ^ ^ ^ summon marker run function raym:raymarch/setup
 
 ## cleanup
 tag @s remove ns

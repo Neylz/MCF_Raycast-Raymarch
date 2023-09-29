@@ -1,7 +1,7 @@
 #> raym:raycast/loop
 
 
-execute at @s store result score #success raym run function raym:raycast/hit/
+execute as @e[tag=!ns,sort=nearest,limit=1] store result score #success raym run function raym:raycast/hit/
 
 
 ## loop
