@@ -9,7 +9,7 @@ The results are compared to the vanilla raycasting algorithm. This raymarching v
 2. Before the main function is called, no data must be previously gethered
 3. The collision detection must be executed in a dedicated function
 4. The collision detection function is never executed during the benchmarks
-5. The collision detection function must have access to the position coordinates of the nearest entity before being called
+5. The collision detection function must be executed as the nearest entity
 6. The functions must have these following stop conditions:
     - The ray has reached its maximum range
     - The ray has reached the maximum number of iterations (raymarching only)
