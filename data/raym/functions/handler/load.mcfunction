@@ -20,5 +20,5 @@ scoreboard players set #100 raym 100
 # credits to @triton365's method
 # modified to use an intermediatary storage instead of using macros
 forceload add 0 0
-summon block_display 0. 0 0. {UUID:[I;0,0,0,0],Tags:["math_3dir_distance"]}
+summon block_display 0. 0 0. {UUID:[I;0,0,0,0],Tags:["math_3dir_distance","ns"]}
 data modify storage raym:math transformation set value [0f,0f,0f,0f,0f,0f,0f,0f,0f,0f,0f,0f,0f,0f,0f,1f]
