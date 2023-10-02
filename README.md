@@ -95,7 +95,7 @@ Worst Case
 
 ### Analysis
 
-*First note: profiling takes a lot of performances ~30% more as on raycasting as on raymarching.*
+*Note: Minecraft profiling (using F3+L) takes a lot of performances. The MSPT is increased by ~30%. So the results you can find in [`./benchmarks/`](./benchmarks/) are scaled up compared to the one presented in the screenshots above.*
 
 As you can observe, the raymarching is way faster than raycasting in the best case. Tho, in its worst case, it becomes slightly slower.
 
